@@ -1,0 +1,31 @@
+1. Are the display and render cards the same? YES
+
+2. What type of display card does the system use? NVIDIA GTX 1060
+
+3. What type of render card does the system uses? NVIDIA GTX 1060
+
+4. Are the display and render cards the same? YES
+
+5. What type of NVIDIA card is in the system? NVIDIA GTX 1060
+
+6. What are ten (10) facts you can find about the NVIDIA card from the system vs. online? Here are some examples:
+
+a. When the product released?  08/18/2016
+
+b. How much did (or does it) cost new or on the secondary market? $249
+
+c. Does the company still make the card? Yes
+
+d. How many transistors does it have? 4.4 Billion Transistors on a 200mm^2 Die
+
+e. How much shared memory does it have? 8170 MB
+
+f. How much display memory does it have? 2996 MB
+
+g. How much total memory does it have? 11166 MB
+
+h. What type of core does it use? GP106 GPU
+
+i. What is the DAC type? Integrated RAMDAC
+
+j. What is the memory speed? 8 GBPS
