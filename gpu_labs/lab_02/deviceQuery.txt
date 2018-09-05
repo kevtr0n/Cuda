@@ -1,0 +1,29 @@
+1. How many cores are there? 
+1280 CUDA Cores
+
+2. Does this match the number you found in Lab 1? 
+No, dxdiag didn't show the core count on dxdiag.
+
+3. How are the cores organized? 
+128 cores per multiprocessor
+
+4. How much shared memory is there? 
+49152 bytes per block
+
+5. Does this match the amount you found in Lab 1? Look up the following on the Internet, if necessary. 
+No.
+
+6. What is the “warp size”--what does it mean?
+The number of threads that a thread manages.
+  
+7. What is the warp size value? 
+32
+
+8. Is there a “run time limit on kernels”?
+Yes.
+
+9. What do you think this property means?
+The max amount of time a process is allowed to run before it is killed.
+
+10. What is run time limit on kernels set to?
+5 seconds.
