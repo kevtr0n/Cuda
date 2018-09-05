@@ -1,3 +1,8 @@
+Kevin Hayden
+GPU Programming
+Lab 02 
+9/4/2018
+
 1. How many cores are there? 
 1280 CUDA Cores
 
@@ -23,7 +28,7 @@ The number of threads that a thread manages.
 Yes.
 
 9. What do you think this property means?
-The max amount of time a process is allowed to run before it is killed.
+The max amount of time a process is allowed to run before it is killed set by the OS.
 
 10. What is run time limit on kernels set to?
 5 seconds.
