@@ -1,3 +1,23 @@
+/**
+ * @author: Kevin Hayden
+ * @file:   hi.c
+ * @date:   September 13th, 2018
+ * -------------------------------------
+ * This program computes the heat index given
+ * a dry-bulb temperature  between 80-110 °F
+ * and 40%-100% humidity using the formula:
+ * 
+ * HI = c₁ + c₂T + c₃R + c₄TR + c₅T² + c₆R² + c₇T²R + c₈TR² + c₉T²R²
+ * 
+ * HI = Heat index (in degrees Fahrenheit)
+ * T  = Ambient dry-bulb temperatur (in degrees Fahrenheit)
+ * R  = Relative humidity (percentage value between 0 and 100)
+ * 
+ * c₁= -42.379         c₂= 2.04901523       c₃= 10.14333127
+ * c₄= -0.22475541     c₅= -6.83783e-3f     c₆= -5.481717e-2f
+ * c₇= 1.22874e-3f     c₈= 8.5282e-4f       c₉= -1.99e-6f
+ */
+
 // Library imports:
 #include <stdio.h>
 
