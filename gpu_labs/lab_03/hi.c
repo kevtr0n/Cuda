@@ -13,9 +13,9 @@
  * T  = Ambient dry-bulb temperatur (in degrees Fahrenheit)
  * R  = Relative humidity (percentage value between 0 and 100)
  * 
- * c₁= -42.379         c₂= 2.04901523       c₃= 10.14333127
+ * c₁= -42.379         c₂=  2.04901523      c₃=  10.14333127
  * c₄= -0.22475541     c₅= -6.83783e-3f     c₆= -5.481717e-2f
- * c₇= 1.22874e-3f     c₈= 8.5282e-4f       c₉= -1.99e-6f
+ * c₇=  1.22874e-3f    c₈=  8.5282e-4f      c₉= -1.99e-6f
  */
 
 // Library imports:
