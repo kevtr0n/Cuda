@@ -1,0 +1,2 @@
+Error log Tue 09/18/2018-22:49:04.70 
+bad argument: 'hello'
