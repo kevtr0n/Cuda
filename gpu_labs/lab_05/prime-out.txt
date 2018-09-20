@@ -1,56 +1,56 @@
-Prime test Tue 09/18/2018-22:49:04.70 
-Checking hello 
-Checking 0 
+Prime test Wed Sep 19 20:04:39 EDT 2018
+Checking hello
+Checking 0
 0: no
---Done! 
-Checking 1 
+--Done!
+Checking 1
 1: no
---Done! 
-Checking 2 
+--Done!
+Checking 2
 2: YES
---Done! 
-Checking 5 
+--Done!
+Checking 5
 5: YES
---Done! 
-Checking 6 
+--Done!
+Checking 6
 6: YES
---Done! 
-Checking 28 
+--Done!
+Checking 28
 28: YES
---Done! 
-Checking 29 
+--Done!
+Checking 29
 29: YES
---Done! 
-Checking -29 
+--Done!
+Checking -29
 -29: no
---Done! 
-Checking 496 
+--Done!
+Checking 496
 496: YES
---Done! 
-Checking 8191 
+--Done!
+Checking 8191
 8191: YES
---Done! 
-Checking 8192 
+--Done!
+Checking 8192
 8192: YES
---Done! 
-Checking 131071 
+--Done!
+Checking 131071
 131071: YES
---Done! 
-Checking 524287 
+--Done!
+Checking 524287
 524287: YES
---Done! 
-Checking 524288 
+--Done!
+Checking 524288
 524288: YES
---Done! 
-Checking 6700417 
+--Done!
+Checking 6700417
 6700417: YES
---Done! 
-Checking 2127483647 
+--Done!
+Checking 2127483647
 2127483647: YES
---Done! 
-Checking 2147483647 
+--Done!
+Checking 2147483647
 2147483647: no
---Done! 
-Checking 67280421310721 
+--Done!
+Checking 67280421310721
 67280421310721: no
---Done! 
+--Done!

@@ -2,8 +2,10 @@
  * @author: Kevin Hayden
  * @file:   kh_prime_helper.c
  * @date:   September 18th, 2018
- * -------------------------------------
  * 
+ * This file contains helper methods which
+ * provide checks for whether an input is
+ * prime or a valid integer value.
  */
 
 #include <stdio.h>
