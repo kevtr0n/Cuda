@@ -35,8 +35,10 @@ int main(int argc, char** argv) {
     int number__ = atoi(number);
     int* ptr = &number__;
 
+    // Print primes:
     printf("2-%d: ", number__);
-    return getPrimes(ptr);
+    int exit_code = getPrimes(ptr);
+    return exit_code;
 }
 
 /**
