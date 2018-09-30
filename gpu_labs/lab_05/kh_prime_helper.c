@@ -33,8 +33,8 @@ bool isprime(char* number) {
     }
 
     // If input is divisible by any number other
-    for (int i = 2; i <= number__; i++) {
-        if ((number__ / i) == 0) {
+    for (int i = 2; i < number__; i++) {
+        if ((number__ % i) == 0) {
             return false;
         }
     }

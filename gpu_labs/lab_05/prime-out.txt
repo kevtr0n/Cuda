@@ -1,4 +1,4 @@
-Prime test Wed Sep 19 20:04:39 EDT 2018
+Prime test Thu Sep 27 13:22:12 EDT 2018
 Checking hello
 Checking 0
 0: no
@@ -13,10 +13,10 @@ Checking 5
 5: YES
 --Done!
 Checking 6
-6: YES
+6: no
 --Done!
 Checking 28
-28: YES
+28: no
 --Done!
 Checking 29
 29: YES
@@ -25,13 +25,13 @@ Checking -29
 -29: no
 --Done!
 Checking 496
-496: YES
+496: no
 --Done!
 Checking 8191
 8191: YES
 --Done!
 Checking 8192
-8192: YES
+8192: no
 --Done!
 Checking 131071
 131071: YES
@@ -40,16 +40,16 @@ Checking 524287
 524287: YES
 --Done!
 Checking 524288
-524288: YES
+524288: no
 --Done!
 Checking 6700417
 6700417: YES
 --Done!
 Checking 2127483647
-2127483647: YES
+2127483647: no
 --Done!
 Checking 2147483647
-2147483647: no
+2147483647: YES
 --Done!
 Checking 67280421310721
 67280421310721: no
