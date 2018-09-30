@@ -104,13 +104,20 @@ bool isValid(char* number) {
  */
 int getPrimes(int* number) {
 
+    // Dynamically allocate enough memory to hold primes:
     int *primes = (int *)malloc(*number * sizeof(int));
+
+    // If malloc fails, free the memory and return exit code 3:
     if (primes == NULL) {
         free(primes);
         fprintf(stderr, "sieve: memory overflow");
         return 3;
     }
+
+    // Initialize counter:
     int counter = 0;
+
+    // Add each prime to memory and increment counter:
     for (int i = 2; i < *number; i++) {
         int* ptr = &i;
         if (isPrime(ptr)) {
@@ -118,10 +125,16 @@ int getPrimes(int* number) {
             counter++;
         }
     }
+
+    // Print each prime:
     for (int i = 0; i < counter; i++) {
         printf("%d ", primes[i]);
     }
     printf("\n");
+    
+    // Free memory:
     free(primes);
+
+    // Return exit code 0:
     return 0;
 }
