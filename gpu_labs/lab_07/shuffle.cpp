@@ -23,6 +23,9 @@ void init(Card* cards) {
   return;
 }
 
+/**
+ * Shuffles a deck.
+ */
 void shuffle(Card* cards) {
   for(int index = 0; index < SHOE_SIZE; index++) {
     Card temp = Card_(cards[index]);
@@ -32,6 +35,13 @@ void shuffle(Card* cards) {
   }
 }
 
+/**
+ * Decodes the given rank and returns
+ * a corresponding char* value.
+ * ----------------------------------- *
+ * @param rank    a card rank
+ * @return        a string
+ */
 char* decode(Rank rank) {
   switch (rank) {
     case NO_RANK: return "NO RANK";
@@ -51,6 +61,13 @@ char* decode(Rank rank) {
   }
 }
 
+/**
+ * Decodes the given suit and returns
+ * a corresponding char* value.
+ * ----------------------------------- *
+ * @param suit    a card suit
+ * @return        a string
+ */
 char* decode(Suit suit) {
   switch (suit) {
     case NO_SUIT:   return "NO SUIT";
