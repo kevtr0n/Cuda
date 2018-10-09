@@ -85,10 +85,8 @@ int main(int argc, char** argv) {
     char* result = mystrcat(str, cat);
     printf("Result: %s\n", result);
 
-    char* test = "Poops";
-    int cmp = mystrcmp(str, test);
-    if (cmp == 0) {
-        printf("mystrcmp works");
-    }
-    printf("%d\n", cmp);
+    char string[] = "String";
+    char string1[] = "String";
+    int res = mystrcmp(string, string1);
+    printf("Result: %d\n", res);
 }
